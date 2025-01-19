@@ -32,11 +32,11 @@ namespace EnumerableVsEnumerator
 
     public class MyEnumerator
     {
-        private int[] data = { 1,2,3,4,5 };
+        private int[] data = { 1, 2, 3, 4, 5 };
         private int position = -1;
 
-        public int Current = data[0];
+        //public int Current = this.data[0];
 
-
+    }
 
 }
